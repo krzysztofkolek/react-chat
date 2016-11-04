@@ -14,8 +14,6 @@ export class ChatStore extends EventEmitter {
               instance.messages = [];
         }
 
-        //this.messages = [];
-
         return instance;
     }
 
